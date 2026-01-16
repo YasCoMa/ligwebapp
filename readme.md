@@ -1,6 +1,6 @@
 # Ligwebapp
 
-Web application and pipeline to perform proteins enrichment and ligands recommendation from a structural perspective with a network visualization
+Web application and pipeline to perform proteins enrichment and provide ligands recommendation from a structural perspective with a network visualization
 
 ## Summary
 Ligwebapp searches domain annotations, PDB structures and its respective ligands directly associated to these proteins and drugs that have these proteins as targets. It provides a network visualization and a statistical summary of the proportion of these node types. As an additional procedure, it offers ligands inference from structures annotated in the same domains as the protein seeds.
@@ -31,4 +31,19 @@ The steps below consider the creation of a sqlite database file with all he task
 	
 ### Exporting conda environment dependencies
 conda env export > ligwebapp.yml
+
+### Authors and colaborators
+Yasmmin Côrtes martins
+Lucas Machado
+Marisa Fabiana Nicolas
+Dario Fernandez do Porto
+Adrian Turjanski
+Marcelo Marti
+
+This application is an extension of the Lig-q web server, whose publication data is below:
+RADUSKY, LEANDRO; RUIZ-CARMONA, SERGIO; MODENUTTI, CARLOS; BARRIL, XAVIER; TURJANSKI, ADRIAN G.; MARTÍ, MARCELO A.
+LigQ: A Webserver to Select and Prepare Ligands for Virtual Screening
+JOURNAL OF CHEMICAL INFORMATION AND MODELING; Año: 2017 vol. 57 p. 1741 - 1746
+
+
 
