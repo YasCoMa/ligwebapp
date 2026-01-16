@@ -1,0 +1,2220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xml:base="http://purl.uniprot.org/uniprot/" xmlns="http://purl.uniprot.org/core/" xmlns:ECO="http://purl.obolibrary.org/obo/ECO_" xmlns:annotation="http://purl.uniprot.org/annotation/" xmlns:citation="http://purl.uniprot.org/citations/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:disease="http://purl.uniprot.org/diseases/" xmlns:enzyme="http://purl.uniprot.org/enzyme/" xmlns:faldo="http://biohackathon.org/resource/faldo#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:go="http://purl.obolibrary.org/obo/GO_" xmlns:isoform="http://purl.uniprot.org/isoforms/" xmlns:keyword="http://purl.uniprot.org/keywords/" xmlns:location="http://purl.uniprot.org/locations/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:position="http://purl.uniprot.org/position/" xmlns:pubmed="http://purl.uniprot.org/pubmed/" xmlns:range="http://purl.uniprot.org/range/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:taxon="http://purl.uniprot.org/taxonomy/" xmlns:tissue="http://purl.uniprot.org/tissues/">
+<owl:Ontology rdf:about="http://purl.uniprot.org/uniprot/">
+<owl:imports rdf:resource="http://purl.uniprot.org/core/"/>
+</owl:Ontology>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Protein"/>
+<reviewed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</reviewed>
+<created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-07</created>
+<modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-22</modified>
+<version rdf:datatype="http://www.w3.org/2001/XMLSchema#int">188</version>
+<complete rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</complete>
+<mnemonic>KCC1G_HUMAN</mnemonic>
+<replaces rdf:resource="http://purl.uniprot.org/uniprot/Q86UH5"/>
+<replaces rdf:resource="http://purl.uniprot.org/uniprot/Q9Y3J7"/>
+<citation rdf:resource="http://purl.uniprot.org/citations/10645953" rdf:ID="_Q96NX5-citation-10645953"/>
+<citation rdf:resource="http://purl.uniprot.org/citations/12637513" rdf:ID="_Q96NX5-citation-12637513"/>
+<citation rdf:resource="http://purl.uniprot.org/citations/SIPBD95808808BC51EE" rdf:ID="_Q96NX5-citation-SIPBD95808808BC51EE"/>
+<citation rdf:resource="http://purl.uniprot.org/citations/16710414" rdf:ID="_Q96NX5-citation-16710414"/>
+<citation rdf:resource="http://purl.uniprot.org/citations/15489334" rdf:ID="_Q96NX5-citation-15489334"/>
+<citation rdf:resource="http://purl.uniprot.org/citations/17344846" rdf:ID="_Q96NX5-citation-17344846"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/embl-cds/AAL28100.1"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/embl-cds/AAP29964.1"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/embl-cds/CAB41259.1"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/embl/AL023754#not-annotated-cds-Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/embl-cds/AAH32787.1"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/ccds/CCDS1486.1"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/refseq/NP_065172.1"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/refseq/XP_016857355.1"/>
+<rdfs:seeAlso rdf:resource="http://rdf.wwpdb.org/pdb/2JAM"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/pdbsum/2JAM"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/alphafolddb/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/smr/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/biogrid/121424"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/intact/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/string/9606.ENSP00000009105"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/bindingdb/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://rdf.ebi.ac.uk/resource/chembl/target/CHEMBL5258"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/drugbank/DB12010"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/drugbank/DB08009"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/drugcentral/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/iptmnet/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/phosphositeplus/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/biomuta/CAMK1G"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/dmdm/73620970"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/jpost/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/massive/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/paxdb/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/peptideatlas/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/proteomicsdb/77570"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/proteomicsdb/77571"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/antibodypedia/20698"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/dnasu/57172"/>
+<rdfs:seeAlso rdf:resource="http://rdf.ebi.ac.uk/resource/ensembl.transcript/ENST00000009105.5"/>
+<rdfs:seeAlso rdf:resource="http://rdf.ebi.ac.uk/resource/ensembl.transcript/ENST00000361322.3"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/geneid/57172"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/kegg/hsa:57172"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/mane-select/ENST00000361322.3"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/ucsc/uc001hhd.4"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/agr/HGNC:14585"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/ctd/57172"/>
+<rdfs:seeAlso rdf:resource="http://identifiers.org/ncbigene/57172"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/genecards/CAMK1G"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/hgnc/14585"/>
+<rdfs:seeAlso rdf:resource="http://www.proteinatlas.org/ENSG00000008118"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/mim/614994"/>
+<rdfs:seeAlso rdf:resource="http://nextprot.org/rdf/entry/NX_Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/opentargets/ENSG00000008118"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/pharmgkb/PA26049"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/veupathdb/HostDB:ENSG00000008118"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/eggnog/KOG0032"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/genetree/ENSGT00940000156872"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/hogenom/CLU_000288_63_0_1"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/inparanoid/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/oma/TGVCAIM"/>
+<rdfs:seeAlso rdf:resource="http://purl.orthodb.org/odbgroup/1121238at2759"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/phylomedb/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/treefam/TF314166"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/brenda/2.7.11.17"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/pathwaycommons/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/signalink/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/signor/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/biogrid-orcs/57172"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/evolutionarytrace/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/genomernai/57172"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/pharos/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PR_Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/rnact/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/bgee/ENSG00000008118"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/expressionatlas/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/genevisible/Q96NX5"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/cdd/cd14166"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/gene3d/1.10.510.10"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/interpro/IPR011009"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/interpro/IPR000719"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/interpro/IPR017441"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/interpro/IPR008271"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/panther/PTHR24347:SF116"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/panther/PTHR24347"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/pfam/PF00069"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/smart/SM00220"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/supfam/SSF56112"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/prosite/PS00107"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/prosite/PS50011"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/prosite/PS00108"/>
+<conflictingSequence rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP364EC72CBE21D850"/>
+<conflictingSequence rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP0C028D7DE79F2E6C"/>
+<recommendedName rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP06CA83F62E1E55F0"/>
+<alternativeName rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP2B751CC74396859D"/>
+<alternativeName rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP7B7311EDF20DD33D"/>
+<enzyme rdf:resource="http://purl.uniprot.org/enzyme/2.7.11.17"/>
+<organism rdf:resource="http://purl.uniprot.org/taxonomy/9606"/>
+<encodedBy rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#gene-MD5C806161F1E6E63A975376AA73C35F862"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPA5C236ADC6175FB0"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPD159A879C485704E"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP9C3544BC805AD899"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPB26F9969C45F81E4"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP79318A9B73B2767F"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPFD7394954C771055"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPC770DAC7AB26DFE5"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPE36ED745F827C5A6"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPCFF7BB5014612891"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPE64B460478A7ADEA"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPDC6E9B6C8D037DC7" rdf:ID="_kb.Q96NX5_up.annotation_5A33250AF223F15B"/>
+<annotation rdf:resource="http://purl.uniprot.org/annotation/PRO_0000086084"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP3DFBBD03DEFE8554" rdf:ID="_kb.Q96NX5_up.annotation_76811E7D404C8981"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP4C8E0E882DCC6BDA" rdf:ID="_kb.Q96NX5_up.annotation_0BA34F785220683A"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPBD20698B10134A8B" rdf:ID="_kb.Q96NX5_up.annotation_0C991B4BF8A1AD0D"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPC458FC2CD95F4C10" rdf:ID="_kb.Q96NX5_up.annotation_37AF0732D9B1548B"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPFDA63C401929536E" rdf:ID="_kb.Q96NX5_up.annotation_38264AA0AD385756"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP64B3440F8889A565" rdf:ID="_kb.Q96NX5_up.annotation_143E1C50DFEE2011"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP7D8B21409E3EEFF2" rdf:ID="_kb.Q96NX5_up.annotation_79055236FE898113"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP6043C5CF58B1B01A" rdf:ID="_kb.Q96NX5_up.annotation_BCD641F81E9E34B5"/>
+<annotation rdf:resource="http://purl.uniprot.org/annotation/VSP_012138" rdf:ID="_kb.Q96NX5_up.annotation_a.VSP_012138"/>
+<annotation rdf:resource="http://purl.uniprot.org/annotation/VAR_040600" rdf:ID="_kb.Q96NX5_up.annotation_a.VAR_040600"/>
+<annotation rdf:resource="http://purl.uniprot.org/annotation/VAR_020530" rdf:ID="_kb.Q96NX5_up.annotation_a.VAR_020530"/>
+<annotation rdf:resource="http://purl.uniprot.org/annotation/VAR_040601" rdf:ID="_kb.Q96NX5_up.annotation_a.VAR_040601"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP6F21CA797AD2E45E" rdf:ID="_kb.Q96NX5_up.annotation_4025E9C85203D07F"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP368BA62541C2056B" rdf:ID="_kb.Q96NX5_up.annotation_8303A37E6043EDB2"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP40E1A19DAC2479A3" rdf:ID="_kb.Q96NX5_up.annotation_E56172EB902589AE"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP2D58B604733DDE0F" rdf:ID="_kb.Q96NX5_up.annotation_69500A1678B2706B"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP13223DDBFF6630F0" rdf:ID="_kb.Q96NX5_up.annotation_18B784F9028F6784"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPC529263E16F9DF05" rdf:ID="_kb.Q96NX5_up.annotation_DD0BE04B189E999A"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP2D794DB2F594FDB8" rdf:ID="_kb.Q96NX5_up.annotation_7ADBFB590CB35059"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP3183247433285058" rdf:ID="_kb.Q96NX5_up.annotation_528E0B370B73241C"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPDA404E005AC1D695" rdf:ID="_kb.Q96NX5_up.annotation_57296EA0F66E9759"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP9284CE91619807E8" rdf:ID="_kb.Q96NX5_up.annotation_FCF06506073CD0B6"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP8B52F71DD3B9B98B" rdf:ID="_kb.Q96NX5_up.annotation_CB6762B0ABACE706"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP1996E8E9D08D2B0F" rdf:ID="_kb.Q96NX5_up.annotation_563200F79DE6C149"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP0FC714C96BCAE19B" rdf:ID="_kb.Q96NX5_up.annotation_93305644F762A035"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP8E413D2506439E43" rdf:ID="_kb.Q96NX5_up.annotation_26E9FD4B25CBF612"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP19C3DA04BACAB52B" rdf:ID="_kb.Q96NX5_up.annotation_E19129E6C029A07D"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP7FE4417E51ACA69C" rdf:ID="_kb.Q96NX5_up.annotation_5E08E2A975F862B6"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPFF55A3F9681EAA6C" rdf:ID="_kb.Q96NX5_up.annotation_F0B798949C992D00"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP6627169B9D1122CC" rdf:ID="_kb.Q96NX5_up.annotation_E3A5AC809C948173"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP49C8EEA76652BF55" rdf:ID="_kb.Q96NX5_up.annotation_EA5A911D44DDD341"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP96B406DF9DC363DE" rdf:ID="_kb.Q96NX5_up.annotation_2DDA5452A68FBA83"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP0AD5CA149AE73792" rdf:ID="_kb.Q96NX5_up.annotation_690442FFB748BD4D"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPF3565139E55508D8" rdf:ID="_kb.Q96NX5_up.annotation_F86CCDDAD6F2A417"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP056FF29DB39C6EB6" rdf:ID="_kb.Q96NX5_up.annotation_AF1F374D4C2D8F3C"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP5442DE70E49C7E5A" rdf:ID="_kb.Q96NX5_up.annotation_71ED15519739D115"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP1F648E484B2DAE0E" rdf:ID="_kb.Q96NX5_up.annotation_D3625EBA82E8D1B3"/>
+<annotation rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP6A5FB68CEF8FD518" rdf:ID="_kb.Q96NX5_up.annotation_19A442B58F6188BE"/>
+<interaction rdf:resource="http://purl.uniprot.org/intact/3920838-9641086"/>
+<interaction rdf:resource="http://purl.uniprot.org/intact/747754-3920838"/>
+<interaction rdf:resource="http://purl.uniprot.org/intact/3920838-10975473"/>
+<interaction rdf:resource="http://purl.uniprot.org/intact/3920838-10171774"/>
+<interaction rdf:resource="http://purl.uniprot.org/intact/1050743-3920838"/>
+<interaction rdf:resource="http://purl.uniprot.org/intact/720609-3920838"/>
+<existence rdf:resource="http://purl.uniprot.org/core/Evidence_at_Protein_Level_Existence"/>
+<classifiedWith rdf:resource="http://purl.uniprot.org/keywords/2"/>
+<classifiedWith rdf:resource="http://purl.uniprot.org/keywords/21"/>
+<classifiedWith rdf:resource="http://purl.uniprot.org/keywords/25"/>
+<classifiedWith rdf:resource="http://purl.uniprot.org/keywords/67"/>
+<classifiedWith rdf:resource="http://purl.uniprot.org/keywords/112"/>
+<classifiedWith rdf:resource="http://purl.uniprot.org/keywords/1003"/>
+<classifiedWith rdf:resource="http://purl.uniprot.org/keywords/963"/>
+<classifiedWith rdf:resource="http://purl.uniprot.org/keywords/333"/>
+<classifiedWith rdf:resource="http://purl.uniprot.org/keywords/636"/>
+<classifiedWith rdf:resource="http://purl.uniprot.org/keywords/1185"/>
+<classifiedWith rdf:resource="http://purl.uniprot.org/keywords/723"/>
+<classifiedWith rdf:resource="http://purl.obolibrary.org/obo/GO_0005954" rdf:ID="_kb.Q96NX5_up.classifiedWith_obo.GO_0005954"/>
+<classifiedWith rdf:resource="http://purl.obolibrary.org/obo/GO_0000139" rdf:ID="_kb.Q96NX5_up.classifiedWith_obo.GO_0000139"/>
+<classifiedWith rdf:resource="http://purl.obolibrary.org/obo/GO_0043005" rdf:ID="_kb.Q96NX5_up.classifiedWith_obo.GO_0043005"/>
+<classifiedWith rdf:resource="http://purl.obolibrary.org/obo/GO_0005886" rdf:ID="_kb.Q96NX5_up.classifiedWith_obo.GO_0005886"/>
+<classifiedWith rdf:resource="http://purl.obolibrary.org/obo/GO_0005524" rdf:ID="_kb.Q96NX5_up.classifiedWith_obo.GO_0005524"/>
+<classifiedWith rdf:resource="http://purl.obolibrary.org/obo/GO_0005516" rdf:ID="_kb.Q96NX5_up.classifiedWith_obo.GO_0005516"/>
+<classifiedWith rdf:resource="http://purl.obolibrary.org/obo/GO_0004683" rdf:ID="_kb.Q96NX5_up.classifiedWith_obo.GO_0004683"/>
+<classifiedWith rdf:resource="http://purl.obolibrary.org/obo/GO_0106310" rdf:ID="_kb.Q96NX5_up.classifiedWith_obo.GO_0106310"/>
+<classifiedWith rdf:resource="http://purl.obolibrary.org/obo/GO_0018105" rdf:ID="_kb.Q96NX5_up.classifiedWith_obo.GO_0018105"/>
+<sequence rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+<sequence rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-2"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-AA808DD26EB651B80869BDADC2C9D5F3"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-0CACA73AD6FA5FC8FF131F2C26F5E326"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-A969DEE2FB45E2286857B21AD327A51B"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-B1173712290FD2B95AA2CFBCD6874F84"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-5A4A498E9655355B7C9A12D26AFC2010"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-FD684AEE5A1E1593DF2CD6159588DF62"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1FCB483947CA5D984454AAD7B8ECB1EE"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-260F9275F08C92D1CF2D41553CB78263"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-E87836BF541079AD696AC3E4608E93EC"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-3FFEB16F8D8672432D88F340B06E4F5A"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1B6DD8A53024B07CC40BABF91B8002B0"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-8B304AAE38A1ACF1C28709AE84A0E8B5"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1F1D235CEE6E9F517881B603655DF439"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+<proteome rdf:resource="http://purl.uniprot.org/proteomes/UP000005640#Chromosome%201"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/citations/10645953">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+<title>A preliminary gene map for the Van der Woude syndrome critical region derived from 900 kb of genomic sequence at 1q32-q41.</title>
+<author>Schutte B.C.</author>
+<author>Bjork B.C.</author>
+<author>Coppage K.B.</author>
+<author>Malik M.I.</author>
+<author>Gregory S.G.</author>
+<author>Scott D.J.</author>
+<author>Brentzell L.M.</author>
+<author>Watanabe Y.</author>
+<author>Dixon M.J.</author>
+<author>Murray J.C.</author>
+<skos:exactMatch rdf:resource="http://purl.uniprot.org/pubmed/10645953"/>
+<foaf:primaryTopicOf rdf:resource="https://pubmed.ncbi.nlm.nih.gov/10645953"/>
+<date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</date>
+<name>Genome Res.</name>
+<volume>10</volume>
+<pages>81-94</pages>
+</rdf:Description>
+<rdf:Description rdf:about="#_Q96NX5-citation-10645953">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Citation_Statement"/>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+<scope>VARIANT ILE-329</scope>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/citations/12637513">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+<title>Molecular cloning and characterization of CLICK-III/CaMKIgamma, a novel membrane-anchored neuronal Ca2+/calmodulin-dependent protein kinase (CaMK).</title>
+<author>Takemoto-Kimura S.</author>
+<author>Terai H.</author>
+<author>Takamoto M.</author>
+<author>Ohmae S.</author>
+<author>Kikumura S.</author>
+<author>Segi E.</author>
+<author>Arakawa Y.</author>
+<author>Furuyashiki T.</author>
+<author>Narumiya S.</author>
+<author>Bito H.</author>
+<skos:exactMatch rdf:resource="http://purl.uniprot.org/pubmed/12637513"/>
+<foaf:primaryTopicOf rdf:resource="https://pubmed.ncbi.nlm.nih.gov/12637513"/>
+<dcterms:identifier>doi:10.1074/jbc.m300578200</dcterms:identifier>
+<date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</date>
+<name>J. Biol. Chem.</name>
+<volume>278</volume>
+<pages>18597-18605</pages>
+</rdf:Description>
+<rdf:Description rdf:about="#_Q96NX5-citation-12637513">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Citation_Statement"/>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2)</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/citations/SIPBD95808808BC51EE">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Submission_Citation"/>
+<author>Rhodes S.</author>
+<date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1999-04</date>
+<submittedTo>EMBL/GenBank/DDBJ</submittedTo>
+</rdf:Description>
+<rdf:Description rdf:about="#_Q96NX5-citation-SIPBD95808808BC51EE">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Citation_Statement"/>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/citations/16710414">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+<title>The DNA sequence and biological annotation of human chromosome 1.</title>
+<author>Gregory S.G.</author>
+<author>Barlow K.F.</author>
+<author>McLay K.E.</author>
+<author>Kaul R.</author>
+<author>Swarbreck D.</author>
+<author>Dunham A.</author>
+<author>Scott C.E.</author>
+<author>Howe K.L.</author>
+<author>Woodfine K.</author>
+<author>Spencer C.C.A.</author>
+<author>Jones M.C.</author>
+<author>Gillson C.</author>
+<author>Searle S.</author>
+<author>Zhou Y.</author>
+<author>Kokocinski F.</author>
+<author>McDonald L.</author>
+<author>Evans R.</author>
+<author>Phillips K.</author>
+<author>Atkinson A.</author>
+<author>Cooper R.</author>
+<author>Jones C.</author>
+<author>Hall R.E.</author>
+<author>Andrews T.D.</author>
+<author>Lloyd C.</author>
+<author>Ainscough R.</author>
+<author>Almeida J.P.</author>
+<author>Ambrose K.D.</author>
+<author>Anderson F.</author>
+<author>Andrew R.W.</author>
+<author>Ashwell R.I.S.</author>
+<author>Aubin K.</author>
+<author>Babbage A.K.</author>
+<author>Bagguley C.L.</author>
+<author>Bailey J.</author>
+<author>Beasley H.</author>
+<author>Bethel G.</author>
+<author>Bird C.P.</author>
+<author>Bray-Allen S.</author>
+<author>Brown J.Y.</author>
+<author>Brown A.J.</author>
+<author>Buckley D.</author>
+<author>Burton J.</author>
+<author>Bye J.</author>
+<author>Carder C.</author>
+<author>Chapman J.C.</author>
+<author>Clark S.Y.</author>
+<author>Clarke G.</author>
+<author>Clee C.</author>
+<author>Cobley V.</author>
+<author>Collier R.E.</author>
+<author>Corby N.</author>
+<author>Coville G.J.</author>
+<author>Davies J.</author>
+<author>Deadman R.</author>
+<author>Dunn M.</author>
+<author>Earthrowl M.</author>
+<author>Ellington A.G.</author>
+<author>Errington H.</author>
+<author>Frankish A.</author>
+<author>Frankland J.</author>
+<author>French L.</author>
+<author>Garner P.</author>
+<author>Garnett J.</author>
+<author>Gay L.</author>
+<author>Ghori M.R.J.</author>
+<author>Gibson R.</author>
+<author>Gilby L.M.</author>
+<author>Gillett W.</author>
+<author>Glithero R.J.</author>
+<author>Grafham D.V.</author>
+<author>Griffiths C.</author>
+<author>Griffiths-Jones S.</author>
+<author>Grocock R.</author>
+<author>Hammond S.</author>
+<author>Harrison E.S.I.</author>
+<author>Hart E.</author>
+<author>Haugen E.</author>
+<author>Heath P.D.</author>
+<author>Holmes S.</author>
+<author>Holt K.</author>
+<author>Howden P.J.</author>
+<author>Hunt A.R.</author>
+<author>Hunt S.E.</author>
+<author>Hunter G.</author>
+<author>Isherwood J.</author>
+<author>James R.</author>
+<author>Johnson C.</author>
+<author>Johnson D.</author>
+<author>Joy A.</author>
+<author>Kay M.</author>
+<author>Kershaw J.K.</author>
+<author>Kibukawa M.</author>
+<author>Kimberley A.M.</author>
+<author>King A.</author>
+<author>Knights A.J.</author>
+<author>Lad H.</author>
+<author>Laird G.</author>
+<author>Lawlor S.</author>
+<author>Leongamornlert D.A.</author>
+<author>Lloyd D.M.</author>
+<author>Loveland J.</author>
+<author>Lovell J.</author>
+<author>Lush M.J.</author>
+<author>Lyne R.</author>
+<author>Martin S.</author>
+<author>Mashreghi-Mohammadi M.</author>
+<author>Matthews L.</author>
+<author>Matthews N.S.W.</author>
+<author>McLaren S.</author>
+<author>Milne S.</author>
+<author>Mistry S.</author>
+<author>Moore M.J.F.</author>
+<author>Nickerson T.</author>
+<author>O'Dell C.N.</author>
+<author>Oliver K.</author>
+<author>Palmeiri A.</author>
+<author>Palmer S.A.</author>
+<author>Parker A.</author>
+<author>Patel D.</author>
+<author>Pearce A.V.</author>
+<author>Peck A.I.</author>
+<author>Pelan S.</author>
+<author>Phelps K.</author>
+<author>Phillimore B.J.</author>
+<author>Plumb R.</author>
+<author>Rajan J.</author>
+<author>Raymond C.</author>
+<author>Rouse G.</author>
+<author>Saenphimmachak C.</author>
+<author>Sehra H.K.</author>
+<author>Sheridan E.</author>
+<author>Shownkeen R.</author>
+<author>Sims S.</author>
+<author>Skuce C.D.</author>
+<author>Smith M.</author>
+<author>Steward C.</author>
+<author>Subramanian S.</author>
+<author>Sycamore N.</author>
+<author>Tracey A.</author>
+<author>Tromans A.</author>
+<author>Van Helmond Z.</author>
+<author>Wall M.</author>
+<author>Wallis J.M.</author>
+<author>White S.</author>
+<author>Whitehead S.L.</author>
+<author>Wilkinson J.E.</author>
+<author>Willey D.L.</author>
+<author>Williams H.</author>
+<author>Wilming L.</author>
+<author>Wray P.W.</author>
+<author>Wu Z.</author>
+<author>Coulson A.</author>
+<author>Vaudin M.</author>
+<author>Sulston J.E.</author>
+<author>Durbin R.M.</author>
+<author>Hubbard T.</author>
+<author>Wooster R.</author>
+<author>Dunham I.</author>
+<author>Carter N.P.</author>
+<author>McVean G.</author>
+<author>Ross M.T.</author>
+<author>Harrow J.</author>
+<author>Olson M.V.</author>
+<author>Beck S.</author>
+<author>Rogers J.</author>
+<author>Bentley D.R.</author>
+<skos:exactMatch rdf:resource="http://purl.uniprot.org/pubmed/16710414"/>
+<foaf:primaryTopicOf rdf:resource="https://pubmed.ncbi.nlm.nih.gov/16710414"/>
+<dcterms:identifier>doi:10.1038/nature04727</dcterms:identifier>
+<date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2006</date>
+<name>Nature</name>
+<volume>441</volume>
+<pages>315-321</pages>
+</rdf:Description>
+<rdf:Description rdf:about="#_Q96NX5-citation-16710414">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Citation_Statement"/>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/citations/15489334">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<group>The MGC Project Team</group>
+<skos:exactMatch rdf:resource="http://purl.uniprot.org/pubmed/15489334"/>
+<foaf:primaryTopicOf rdf:resource="https://pubmed.ncbi.nlm.nih.gov/15489334"/>
+<dcterms:identifier>doi:10.1101/gr.2596504</dcterms:identifier>
+<date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</date>
+<name>Genome Res.</name>
+<volume>14</volume>
+<pages>2121-2127</pages>
+</rdf:Description>
+<rdf:Description rdf:about="#_Q96NX5-citation-15489334">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Citation_Statement"/>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/citations/17344846">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+<title>Patterns of somatic mutation in human cancer genomes.</title>
+<author>Greenman C.</author>
+<author>Stephens P.</author>
+<author>Smith R.</author>
+<author>Dalgliesh G.L.</author>
+<author>Hunter C.</author>
+<author>Bignell G.</author>
+<author>Davies H.</author>
+<author>Teague J.</author>
+<author>Butler A.</author>
+<author>Stevens C.</author>
+<author>Edkins S.</author>
+<author>O'Meara S.</author>
+<author>Vastrik I.</author>
+<author>Schmidt E.E.</author>
+<author>Avis T.</author>
+<author>Barthorpe S.</author>
+<author>Bhamra G.</author>
+<author>Buck G.</author>
+<author>Choudhury B.</author>
+<author>Clements J.</author>
+<author>Cole J.</author>
+<author>Dicks E.</author>
+<author>Forbes S.</author>
+<author>Gray K.</author>
+<author>Halliday K.</author>
+<author>Harrison R.</author>
+<author>Hills K.</author>
+<author>Hinton J.</author>
+<author>Jenkinson A.</author>
+<author>Jones D.</author>
+<author>Menzies A.</author>
+<author>Mironenko T.</author>
+<author>Perry J.</author>
+<author>Raine K.</author>
+<author>Richardson D.</author>
+<author>Shepherd R.</author>
+<author>Small A.</author>
+<author>Tofts C.</author>
+<author>Varian J.</author>
+<author>Webb T.</author>
+<author>West S.</author>
+<author>Widaa S.</author>
+<author>Yates A.</author>
+<author>Cahill D.P.</author>
+<author>Louis D.N.</author>
+<author>Goldstraw P.</author>
+<author>Nicholson A.G.</author>
+<author>Brasseur F.</author>
+<author>Looijenga L.</author>
+<author>Weber B.L.</author>
+<author>Chiew Y.-E.</author>
+<author>DeFazio A.</author>
+<author>Greaves M.F.</author>
+<author>Green A.R.</author>
+<author>Campbell P.</author>
+<author>Birney E.</author>
+<author>Easton D.F.</author>
+<author>Chenevix-Trench G.</author>
+<author>Tan M.-H.</author>
+<author>Khoo S.K.</author>
+<author>Teh B.T.</author>
+<author>Yuen S.T.</author>
+<author>Leung S.Y.</author>
+<author>Wooster R.</author>
+<author>Futreal P.A.</author>
+<author>Stratton M.R.</author>
+<skos:exactMatch rdf:resource="http://purl.uniprot.org/pubmed/17344846"/>
+<foaf:primaryTopicOf rdf:resource="https://pubmed.ncbi.nlm.nih.gov/17344846"/>
+<dcterms:identifier>doi:10.1038/nature05610</dcterms:identifier>
+<date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2007</date>
+<name>Nature</name>
+<volume>446</volume>
+<pages>153-158</pages>
+</rdf:Description>
+<rdf:Description rdf:about="#_Q96NX5-citation-17344846">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Citation_Statement"/>
+<scope>VARIANTS [LARGE SCALE ANALYSIS] GLN-259; ILE-329 AND THR-443</scope>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/embl-cds/AAL28100.1">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Nucleotide_Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/EMBL"/>
+<locatedOn rdf:resource="http://purl.uniprot.org/embl/AF428261"/>
+<citation rdf:resource="http://purl.uniprot.org/citations/10645953"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/embl/AF428261">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/MRNA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/embl-cds/AAP29964.1">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Nucleotide_Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/EMBL"/>
+<locatedOn rdf:resource="http://purl.uniprot.org/embl/AY212935"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/embl/AY212935">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/MRNA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/embl-cds/CAB41259.1">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Nucleotide_Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/EMBL"/>
+<locatedOn rdf:resource="http://purl.uniprot.org/embl/AL049688"/>
+<sequenceDiscrepancy rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#EMBL_CAB41259.1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/embl/AL049688">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/MRNA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#EMBL_CAB41259.1">
+<rdfs:comment>Different initiation.</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/embl/AL023754#not-annotated-cds-Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Nucleotide_Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/EMBL"/>
+<locatedOn rdf:resource="http://purl.uniprot.org/embl/AL023754"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/embl/AL023754">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Genomic_DNA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/embl-cds/AAH32787.1">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Nucleotide_Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/EMBL"/>
+<locatedOn rdf:resource="http://purl.uniprot.org/embl/BC032787"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/embl/BC032787">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/MRNA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/ccds/CCDS1486.1">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/CCDS"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/refseq/NP_065172.1">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/RefSeq"/>
+<translatedFrom rdf:resource="http://purl.uniprot.org/refseq/NM_020439.2#NP_065172.1_CDS"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/refseq/NM_020439.2#NP_065172.1_CDS">
+<locatedOn rdf:resource="http://purl.uniprot.org/refseq/NM_020439.2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/refseq/XP_016857355.1">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/RefSeq"/>
+<translatedFrom rdf:resource="http://purl.uniprot.org/refseq/XM_017001866.1#XP_016857355.1_CDS"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/refseq/XM_017001866.1#XP_016857355.1_CDS">
+<locatedOn rdf:resource="http://purl.uniprot.org/refseq/XM_017001866.1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rdf.wwpdb.org/pdb/2JAM">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PDB"/>
+<method rdf:resource="http://purl.uniprot.org/core/X-Ray_Crystallography"/>
+<resolution rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.70</resolution>
+<chainSequenceMapping rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1#PDB_2JAM_tt18tt316"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/isoforms/Q96NX5-1#PDB_2JAM_tt18tt316">
+<chain>A/B=18-316</chain>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/pdbsum/2JAM">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PDBsum"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/alphafolddb/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/AlphaFoldDB"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/smr/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/SMR"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/biogrid/121424">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/BioGRID"/>
+<rdfs:comment>14</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/IntAct"/>
+<rdfs:comment>12</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/string/9606.ENSP00000009105">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/STRING"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/bindingdb/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/BindingDB"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rdf.ebi.ac.uk/resource/chembl/target/CHEMBL5258">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/ChEMBL"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/drugbank/DB12010">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/DrugBank"/>
+<rdfs:comment>Fostamatinib</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/drugbank/DB08009">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/DrugBank"/>
+<rdfs:comment>SU-11652</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/drugcentral/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/DrugCentral"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/iptmnet/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/iPTMnet"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/phosphositeplus/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PhosphoSitePlus"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/biomuta/CAMK1G">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/BioMuta"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/dmdm/73620970">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/DMDM"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/jpost/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/jPOST"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/massive/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/MassIVE"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/paxdb/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PaxDb"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/peptideatlas/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PeptideAtlas"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/proteomicsdb/77570">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/ProteomicsDB"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/proteomicsdb/77571">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/ProteomicsDB"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/antibodypedia/20698">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/Antibodypedia"/>
+<rdfs:comment>305 antibodies from 30 providers</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/dnasu/57172">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/DNASU"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rdf.ebi.ac.uk/resource/ensembl.transcript/ENST00000009105.5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Transcript_Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/Ensembl"/>
+<translatedTo rdf:resource="http://rdf.ebi.ac.uk/resource/ensembl.protein/ENSP00000009105.1"/>
+<transcribedFrom rdf:resource="http://rdf.ebi.ac.uk/resource/ensembl/ENSG00000008118.10"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rdf.ebi.ac.uk/resource/ensembl.transcript/ENST00000361322.3">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Transcript_Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/Ensembl"/>
+<translatedTo rdf:resource="http://rdf.ebi.ac.uk/resource/ensembl.protein/ENSP00000354861.2"/>
+<transcribedFrom rdf:resource="http://rdf.ebi.ac.uk/resource/ensembl/ENSG00000008118.10"/>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/geneid/57172">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/GeneID"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/kegg/hsa:57172">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/KEGG"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/mane-select/ENST00000361322.3">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Transcript_Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/MANE-Select"/>
+<owl:sameAs rdf:resource="http://rdf.ebi.ac.uk/resource/ensembl.transcript/ENST00000361322.3"/>
+<owl:sameAs rdf:resource="http://purl.uniprot.org/refseq/NM_020439.3"/>
+<translatedTo rdf:resource="http://purl.uniprot.org/mane-select/ENST00000361322.3#translation"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/mane-select/ENST00000361322.3#translation">
+<owl:sameAs rdf:resource="http://rdf.ebi.ac.uk/resource/ensembl.protein/ENSP00000354861.2"/>
+<owl:sameAs rdf:resource="http://purl.uniprot.org/refseq/NP_065172.1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/ucsc/uc001hhd.4">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/UCSC"/>
+<rdfs:comment>human</rdfs:comment>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/agr/HGNC:14585">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/AGR"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/ctd/57172">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/CTD"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://identifiers.org/ncbigene/57172">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/DisGeNET"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/genecards/CAMK1G">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/GeneCards"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/hgnc/14585">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/HGNC"/>
+<rdfs:comment>CAMK1G</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.proteinatlas.org/ENSG00000008118">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/HPA"/>
+<rdfs:comment>Group enriched (brain, kidney, ovary)</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/mim/614994">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/MIM"/>
+<rdfs:comment>gene</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://nextprot.org/rdf/entry/NX_Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/neXtProt"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/opentargets/ENSG00000008118">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/OpenTargets"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/pharmgkb/PA26049">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PharmGKB"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/veupathdb/HostDB:ENSG00000008118">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/VEuPathDB"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/eggnog/KOG0032">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/eggNOG"/>
+<rdfs:comment>Eukaryota</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/genetree/ENSGT00940000156872">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/GeneTree"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/hogenom/CLU_000288_63_0_1">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/HOGENOM"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/inparanoid/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/InParanoid"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/oma/TGVCAIM">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/OMA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.orthodb.org/odbgroup/1121238at2759">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/OrthoDB"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/phylomedb/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PhylomeDB"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/treefam/TF314166">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/TreeFam"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/brenda/2.7.11.17">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/BRENDA"/>
+<rdfs:comment>2681</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/pathwaycommons/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PathwayCommons"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/signalink/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/SignaLink"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/signor/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/SIGNOR"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/biogrid-orcs/57172">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/BioGRID-ORCS"/>
+<rdfs:comment>12 hits in 1179 CRISPR screens</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/evolutionarytrace/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/EvolutionaryTrace"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/genomernai/57172">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/GenomeRNAi"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/pharos/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/Pharos"/>
+<rdfs:comment>Tchem</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PRO"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/rnact/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/RNAct"/>
+<rdfs:comment>protein</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/bgee/ENSG00000008118">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/Bgee"/>
+<rdfs:comment>Expressed in frontal pole and 132 other tissues</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/expressionatlas/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/ExpressionAtlas"/>
+<rdfs:comment>baseline and differential</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/genevisible/Q96NX5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/Genevisible"/>
+<rdfs:comment>HS</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/cdd/cd14166">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/CDD"/>
+<rdfs:comment>STKc_CaMKI_gamma</rdfs:comment>
+<signatureSequenceMatch rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1#CDD_cd14166_match_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/gene3d/1.10.510.10">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/Gene3D"/>
+<rdfs:comment>Transferase(Phosphotransferase) domain 1</rdfs:comment>
+<signatureSequenceMatch rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1#Gene3D_1.10.510.10_match_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/interpro/IPR011009">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/InterPro"/>
+<rdfs:comment>Kinase-like_dom_sf</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/interpro/IPR000719">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/InterPro"/>
+<rdfs:comment>Prot_kinase_dom</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/interpro/IPR017441">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/InterPro"/>
+<rdfs:comment>Protein_kinase_ATP_BS</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/interpro/IPR008271">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/InterPro"/>
+<rdfs:comment>Ser/Thr_kinase_AS</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/panther/PTHR24347:SF116">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PANTHER"/>
+<rdfs:comment>CALCIUM/CALMODULIN-DEPENDENT PROTEIN KINASE TYPE 1G</rdfs:comment>
+<signatureSequenceMatch rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1#PANTHER_PTHR24347:SF116_match_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/panther/PTHR24347">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PANTHER"/>
+<rdfs:comment>SERINE/THREONINE-PROTEIN KINASE</rdfs:comment>
+<signatureSequenceMatch rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1#PANTHER_PTHR24347_match_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/pfam/PF00069">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/Pfam"/>
+<rdfs:comment>Pkinase</rdfs:comment>
+<signatureSequenceMatch rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1#Pfam_PF00069_match_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/smart/SM00220">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/SMART"/>
+<rdfs:comment>S_TKc</rdfs:comment>
+<signatureSequenceMatch rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1#SMART_SM00220_match_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/supfam/SSF56112">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/SUPFAM"/>
+<rdfs:comment>Protein kinase-like (PK-like)</rdfs:comment>
+<signatureSequenceMatch rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1#SUPFAM_SSF56112_match_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/prosite/PS00107">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PROSITE"/>
+<rdfs:comment>PROTEIN_KINASE_ATP</rdfs:comment>
+<signatureSequenceMatch rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1#PROSITE_PS00107_match_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/prosite/PS50011">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PROSITE"/>
+<rdfs:comment>PROTEIN_KINASE_DOM</rdfs:comment>
+<signatureSequenceMatch rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1#PROSITE_PS50011_match_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/prosite/PS00108">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Resource"/>
+<database rdf:resource="http://purl.uniprot.org/database/PROSITE"/>
+<rdfs:comment>PROTEIN_KINASE_ST</rdfs:comment>
+<signatureSequenceMatch rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1#PROSITE_PS00108_match_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP364EC72CBE21D850">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/External_Sequence"/>
+<translatedFrom rdf:resource="http://purl.uniprot.org/embl-cds/AAL28100.1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP0C028D7DE79F2E6C">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/External_Sequence"/>
+<translatedFrom rdf:resource="http://purl.uniprot.org/embl-cds/CAB41259.1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP06CA83F62E1E55F0">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Structured_Name"/>
+<fullName>Calcium/calmodulin-dependent protein kinase type 1G</fullName>
+<ecName>2.7.11.17</ecName>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP2B751CC74396859D">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Structured_Name"/>
+<fullName>CaM kinase I gamma</fullName>
+<shortName>CaM kinase IG</shortName>
+<shortName>CaM-KI gamma</shortName>
+<shortName>CaMKI gamma</shortName>
+<shortName>CaMKIG</shortName>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP7B7311EDF20DD33D">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Structured_Name"/>
+<fullName>CaMK-like CREB kinase III</fullName>
+<shortName>CLICK III</shortName>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#gene-MD5C806161F1E6E63A975376AA73C35F862">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Gene"/>
+<skos:prefLabel>CAMK1G</skos:prefLabel>
+<skos:altLabel>CLICK3</skos:altLabel>
+<skos:altLabel>VWS1</skos:altLabel>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPA5C236ADC6175FB0">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Function_Annotation"/>
+<rdfs:comment rdf:ID="_8430345BCEF02D9E_rdfs.comment_7956F4DD4BF56BE2">Calcium/calmodulin-dependent protein kinase belonging to a proposed calcium-triggered signaling cascade. In vitro phosphorylates transcription factor CREB1 (By similarity).</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="#_8430345BCEF02D9E_rdfs.comment_7956F4DD4BF56BE2">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPD159A879C485704E">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Catalytic_Activity_Annotation"/>
+<catalyticActivity rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPDCBD90905AE3C5C3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPDCBD90905AE3C5C3">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Catalytic_Activity"/>
+<catalyzedReaction rdf:resource="http://rdf.rhea-db.org/17989"/>
+<enzymeClass rdf:resource="http://purl.uniprot.org/enzyme/2.7.11.17"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP9C3544BC805AD899">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Catalytic_Activity_Annotation"/>
+<catalyticActivity rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP2E665E5E9A2F2E5F"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP2E665E5E9A2F2E5F">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Catalytic_Activity"/>
+<catalyzedReaction rdf:resource="http://rdf.rhea-db.org/46608"/>
+<enzymeClass rdf:resource="http://purl.uniprot.org/enzyme/2.7.11.17"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPB26F9969C45F81E4">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Activity_Regulation_Annotation"/>
+<rdfs:comment rdf:ID="_06392E09F67C9F33_rdfs.comment_E02CC5878FEFDA18">Activated by Ca(2+)/calmodulin. Binding of calmodulin is thought to result in a conformational change and leads to activation through phosphorylation by CAMKK1 (By similarity).</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="#_06392E09F67C9F33_rdfs.comment_E02CC5878FEFDA18">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP79318A9B73B2767F">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Subcellular_Location_Annotation"/>
+<locatedIn rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP95E67694DBE83FAC"/>
+<locatedIn rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIPCD189D1F37F2ED65"/>
+<locatedIn rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP317E766A60EC05D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP95E67694DBE83FAC">
+<cellularComponent rdf:resource="http://purl.uniprot.org/locations/86" rdf:ID="_8D9408265FBE850F_ECA11A063956BBD5_0AD494B8C8945D9B"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_8D9408265FBE850F_ECA11A063956BBD5_0AD494B8C8945D9B">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPCD189D1F37F2ED65">
+<cellularComponent rdf:resource="http://purl.uniprot.org/locations/134" rdf:ID="_E78096F843A2B334_ECA11A063956BBD5_CD5C3F13F559F855"/>
+<topology rdf:resource="http://purl.uniprot.org/locations/9903" rdf:ID="_E78096F843A2B334_up.topology_3BFFDE2566BB9384"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_E78096F843A2B334_ECA11A063956BBD5_CD5C3F13F559F855">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_E78096F843A2B334_up.topology_3BFFDE2566BB9384">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP317E766A60EC05D1">
+<cellularComponent rdf:resource="http://purl.uniprot.org/locations/39" rdf:ID="_91C99411AF597156_ECA11A063956BBD5_9655A6EDB68BC0AE"/>
+<topology rdf:resource="http://purl.uniprot.org/locations/9903" rdf:ID="_91C99411AF597156_up.topology_3BFFDE2566BB9384"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_91C99411AF597156_ECA11A063956BBD5_9655A6EDB68BC0AE">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_91C99411AF597156_up.topology_3BFFDE2566BB9384">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPFD7394954C771055">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Alternative_Splicing_Annotation"/>
+<sequence rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+<sequence rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPC770DAC7AB26DFE5">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Tissue_Specificity_Annotation"/>
+<rdfs:comment rdf:ID="_AF7D1719F1A9A05A_rdfs.comment_479D336109E7C6DC">Mainly expressed in brain with small amounts in skeletal muscles, kidney, spleen and liver. Strongly expressed in forebrain neocortex, striatum and limbic system.</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="#_AF7D1719F1A9A05A_rdfs.comment_479D336109E7C6DC">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-3FFEB16F8D8672432D88F340B06E4F5A"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPE36ED745F827C5A6">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Domain_Annotation"/>
+<rdfs:comment rdf:ID="_E15A99DC61A11ACC_rdfs.comment_F35FCF1F9110EB4E">The autoinhibitory domain overlaps with the calmodulin binding region and interacts in the inactive folded state with the catalytic domain as a pseudosubstrate.</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="#_E15A99DC61A11ACC_rdfs.comment_F35FCF1F9110EB4E">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPCFF7BB5014612891">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/PTM_Annotation"/>
+<rdfs:comment rdf:ID="_19E9DD8EA00A39E1_rdfs.comment_23A32C3922D8174F">May be prenylated on Cys-473.</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="#_19E9DD8EA00A39E1_rdfs.comment_23A32C3922D8174F">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPE64B460478A7ADEA">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Similarity_Annotation"/>
+<rdfs:comment rdf:ID="_E04B61761519E5B1_rdfs.comment_2C04AB1A5630DD96">Belongs to the protein kinase superfamily. CAMK Ser/Thr protein kinase family. CaMK subfamily.</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="#_E04B61761519E5B1_rdfs.comment_2C04AB1A5630DD96">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1F1D235CEE6E9F517881B603655DF439"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPDC6E9B6C8D037DC7">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Erroneous_Initiation_Annotation"/>
+<conflictingSequence rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP0C028D7DE79F2E6C"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_5A33250AF223F15B">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1F1D235CEE6E9F517881B603655DF439"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/annotation/PRO_0000086084">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Chain_Annotation"/>
+<rdfs:comment>Calcium/calmodulin-dependent protein kinase type 1G</rdfs:comment>
+<mass rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53087</mass>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt1tt476"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt1tt476">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt1"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt476"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt1">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt476">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">476</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP3DFBBD03DEFE8554">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Domain_Extent_Annotation"/>
+<rdfs:comment>Protein kinase</rdfs:comment>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt23tt277"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt23tt277">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt23"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt277"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt23">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt277">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">277</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_76811E7D404C8981">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-FD684AEE5A1E1593DF2CD6159588DF62"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP4C8E0E882DCC6BDA">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Region_Annotation"/>
+<rdfs:comment>Autoinhibitory domain</rdfs:comment>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt277tt317"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt277tt317">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt277"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt317"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt317">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">317</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_0BA34F785220683A">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPBD20698B10134A8B">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Region_Annotation"/>
+<rdfs:comment>Calmodulin-binding</rdfs:comment>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt297tt318"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt297tt318">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt297"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt318"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt297">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">297</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt318">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">318</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_0C991B4BF8A1AD0D">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPC458FC2CD95F4C10">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Region_Annotation"/>
+<rdfs:comment>Disordered</rdfs:comment>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt325tt352"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt325tt352">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt325"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt352"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt325">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">325</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt352">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">352</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_37AF0732D9B1548B">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-260F9275F08C92D1CF2D41553CB78263"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPFDA63C401929536E">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Compositional_Bias_Annotation"/>
+<rdfs:comment>Polar residues</rdfs:comment>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt338tt352"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt338tt352">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt338"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt352"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt338">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">338</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_38264AA0AD385756">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-260F9275F08C92D1CF2D41553CB78263"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP64B3440F8889A565">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Active_Site_Annotation"/>
+<rdfs:comment>Proton acceptor</rdfs:comment>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt143tt143"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt143tt143">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt143"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt143"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt143">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">143</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_143E1C50DFEE2011">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-FD684AEE5A1E1593DF2CD6159588DF62"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1FCB483947CA5D984454AAD7B8ECB1EE"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP7D8B21409E3EEFF2">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Binding_Site_Annotation"/>
+<ligand rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP90C48BBBB9900709"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt29tt37"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt29tt37">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt29"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt37"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt29">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt37">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_79055236FE898113">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-FD684AEE5A1E1593DF2CD6159588DF62"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP6043C5CF58B1B01A">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Binding_Site_Annotation"/>
+<ligand rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP90C48BBBB9900709"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt52tt52"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt52tt52">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt52"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt52"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt52">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_BCD641F81E9E34B5">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-FD684AEE5A1E1593DF2CD6159588DF62"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/annotation/VSP_012138">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Alternative_Sequence_Annotation"/>
+<rdfs:comment>In isoform 2.</rdfs:comment>
+<substitution>YVFLAKDGAPAWV</substitution>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt448tt476"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt448tt476">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt448"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt476"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt448">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">448</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_a.VSP_012138">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-8B304AAE38A1ACF1C28709AE84A0E8B5"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/annotation/VAR_040600">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Natural_Variant_Annotation"/>
+<substitution>Q</substitution>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/dbsnp/rs35561962"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt259tt259"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/dbsnp/rs35561962">
+<database rdf:resource="http://purl.uniprot.org/database/dbSNP"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt259tt259">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt259"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt259"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt259">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">259</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_a.VAR_040600">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1B6DD8A53024B07CC40BABF91B8002B0"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/annotation/VAR_020530">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Natural_Variant_Annotation"/>
+<substitution>I</substitution>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/dbsnp/rs11119315"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt329tt329"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/dbsnp/rs11119315">
+<database rdf:resource="http://purl.uniprot.org/database/dbSNP"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt329tt329">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt329"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt329"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt329">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">329</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_a.VAR_020530">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-E87836BF541079AD696AC3E4608E93EC"/>
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1B6DD8A53024B07CC40BABF91B8002B0"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/annotation/VAR_040601">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Natural_Variant_Annotation"/>
+<rdfs:comment>In a breast infiltrating ductal carcinoma sample; somatic mutation.</rdfs:comment>
+<substitution>T</substitution>
+<rdfs:seeAlso rdf:resource="http://purl.uniprot.org/dbsnp/rs1228276529"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt443tt443"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/dbsnp/rs1228276529">
+<database rdf:resource="http://purl.uniprot.org/database/dbSNP"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt443tt443">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt443"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt443"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt443">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">443</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_a.VAR_040601">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1B6DD8A53024B07CC40BABF91B8002B0"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP6F21CA797AD2E45E">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Sequence_Conflict_Annotation"/>
+<conflictingSequence rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#SIP364EC72CBE21D850"/>
+<substitution>N</substitution>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt427tt427"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt427tt427">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt427"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt427"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt427">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">427</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_4025E9C85203D07F">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1F1D235CEE6E9F517881B603655DF439"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP368BA62541C2056B">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt19tt22"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt19tt22">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt19"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt22"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt19">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt22">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_8303A37E6043EDB2">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP40E1A19DAC2479A3">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Beta_Strand_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt23tt31"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt23tt31">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt23"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt31"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt31">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_E56172EB902589AE">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP2D58B604733DDE0F">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Beta_Strand_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt33tt42"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt33tt42">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt33"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt42"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt33">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt42">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_69500A1678B2706B">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP13223DDBFF6630F0">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Turn_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt43tt45"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt43tt45">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt43"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt45"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt43">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt45">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_18B784F9028F6784">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPC529263E16F9DF05">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Beta_Strand_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt48tt55"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt48tt55">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt48"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt55"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt48">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt55">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_DD0BE04B189E999A">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP2D794DB2F594FDB8">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt64tt74"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt64tt74">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt64"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt74"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt64">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">64</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt74">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">74</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_7ADBFB590CB35059">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP3183247433285058">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Beta_Strand_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt83tt88"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt83tt88">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt83"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt88"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt83">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">83</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt88">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">88</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_528E0B370B73241C">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPDA404E005AC1D695">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Beta_Strand_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt90tt97"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt90tt97">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt90"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt97"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt90">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">90</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt97">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">97</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_57296EA0F66E9759">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP9284CE91619807E8">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt105tt112"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt105tt112">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt105"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt112"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt105">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">105</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt112">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">112</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_FCF06506073CD0B6">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP8B52F71DD3B9B98B">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt117tt136"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt117tt136">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt117"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt136"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt117">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">117</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt136">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">136</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_CB6762B0ABACE706">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP1996E8E9D08D2B0F">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt146tt148"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt146tt148">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt146"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt148"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt146">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">146</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt148">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">148</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_563200F79DE6C149">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP0FC714C96BCAE19B">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Beta_Strand_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt150tt155"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt150tt155">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt150"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt155"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt150">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt155">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">155</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_93305644F762A035">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP8E413D2506439E43">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Beta_Strand_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt160tt162"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt160tt162">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt160"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt162"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt160">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">160</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt162">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">162</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_26E9FD4B25CBF612">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP19C3DA04BACAB52B">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt177tt180"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt177tt180">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt177"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt180"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt177">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">177</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt180">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_E19129E6C029A07D">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP7FE4417E51ACA69C">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Turn_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt188tt190"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt188tt190">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt188"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt190"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt188">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">188</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt190">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">190</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_5E08E2A975F862B6">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPFF55A3F9681EAA6C">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Beta_Strand_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt191tt193"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt191tt193">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt191"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt193"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt191">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">191</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt193">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">193</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_F0B798949C992D00">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP6627169B9D1122CC">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt198tt214"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt198tt214">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt198"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt214"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt198">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">198</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt214">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">214</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_E3A5AC809C948173">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP49C8EEA76652BF55">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Turn_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt218tt221"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt218tt221">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt218"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt221"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt218">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">218</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt221">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">221</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_EA5A911D44DDD341">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP96B406DF9DC363DE">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt224tt233"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt224tt233">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt224"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt233"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt224">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">224</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt233">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">233</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_2DDA5452A68FBA83">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP0AD5CA149AE73792">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Turn_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt240tt245"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt240tt245">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt240"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt245"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt240">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">240</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt245">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">245</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_690442FFB748BD4D">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIPF3565139E55508D8">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt248tt258"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt248tt258">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt248"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt258"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt248">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">248</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt258">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">258</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_F86CCDDAD6F2A417">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP056FF29DB39C6EB6">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Turn_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt262tt264"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt262tt264">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt262"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt264"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt262">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">262</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt264">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">264</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_AF1F374D4C2D8F3C">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP5442DE70E49C7E5A">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt268tt272"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt268tt272">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt268"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt272"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt268">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">268</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt272">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">272</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_71ED15519739D115">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP1F648E484B2DAE0E">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt275tt278"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt275tt278">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt275"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt278"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt275">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">275</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt278">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">278</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_D3625EBA82E8D1B3">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP6A5FB68CEF8FD518">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+<range rdf:resource="http://purl.uniprot.org/range/22862378518983982tt288tt298"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/range/22862378518983982tt288tt298">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Region"/>
+<faldo:begin rdf:resource="http://purl.uniprot.org/position/22862378518983982tt288"/>
+<faldo:end rdf:resource="http://purl.uniprot.org/position/22862378518983982tt298"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt288">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">288</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/position/22862378518983982tt298">
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#Position"/>
+<rdf:type rdf:resource="http://biohackathon.org/resource/faldo#ExactPosition"/>
+<faldo:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">298</faldo:position>
+<faldo:reference rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.annotation_19A442B58F6188BE">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#SIP90C48BBBB9900709">
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30616"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/3920838-9641086">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Interaction"/>
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Non_Self_Interaction"/>
+<xeno rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</xeno>
+<experiments rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</experiments>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-3920838"/>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-9641086"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/747754-3920838">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Interaction"/>
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Non_Self_Interaction"/>
+<xeno rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</xeno>
+<experiments rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</experiments>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-3920838"/>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-747754"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/3920838-10975473">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Interaction"/>
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Non_Self_Interaction"/>
+<xeno rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</xeno>
+<experiments rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</experiments>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-3920838"/>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-10975473"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/3920838-10171774">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Interaction"/>
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Non_Self_Interaction"/>
+<xeno rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</xeno>
+<experiments rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</experiments>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-3920838"/>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-10171774"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/1050743-3920838">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Interaction"/>
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Non_Self_Interaction"/>
+<xeno rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</xeno>
+<experiments rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</experiments>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-3920838"/>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-1050743"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/720609-3920838">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Interaction"/>
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Non_Self_Interaction"/>
+<xeno rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</xeno>
+<experiments rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</experiments>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-3920838"/>
+<participant rdf:resource="http://purl.uniprot.org/intact/EBI-720609"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/EBI-3920838">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Participant"/>
+<owl:sameAs rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/EBI-9641086">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Participant"/>
+<rdfs:label>FLNA</rdfs:label>
+<owl:sameAs rdf:resource="http://purl.uniprot.org/isoforms/P21333-2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/EBI-747754">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Participant"/>
+<rdfs:label>GRN</rdfs:label>
+<owl:sameAs rdf:resource="http://purl.uniprot.org/uniprot/P28799"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/EBI-10975473">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Participant"/>
+<rdfs:label>KIF1B</rdfs:label>
+<owl:sameAs rdf:resource="http://purl.uniprot.org/isoforms/O60333-2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/EBI-10171774">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Participant"/>
+<rdfs:label>KRTAP10-8</rdfs:label>
+<owl:sameAs rdf:resource="http://purl.uniprot.org/uniprot/P60410"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/EBI-1050743">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Participant"/>
+<rdfs:label>MAT2A</rdfs:label>
+<owl:sameAs rdf:resource="http://purl.uniprot.org/uniprot/P31153"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/intact/EBI-720609">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Participant"/>
+<rdfs:label>WFS1</rdfs:label>
+<owl:sameAs rdf:resource="http://purl.uniprot.org/uniprot/O76024"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.classifiedWith_obo.GO_0005954">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-AA808DD26EB651B80869BDADC2C9D5F3"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.classifiedWith_obo.GO_0000139">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-0CACA73AD6FA5FC8FF131F2C26F5E326"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.classifiedWith_obo.GO_0043005">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-AA808DD26EB651B80869BDADC2C9D5F3"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.classifiedWith_obo.GO_0005886">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-0CACA73AD6FA5FC8FF131F2C26F5E326"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.classifiedWith_obo.GO_0005524">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-A969DEE2FB45E2286857B21AD327A51B"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.classifiedWith_obo.GO_0005516">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-B1173712290FD2B95AA2CFBCD6874F84"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.classifiedWith_obo.GO_0004683">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-B1173712290FD2B95AA2CFBCD6874F84"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.classifiedWith_obo.GO_0106310">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-5A4A498E9655355B7C9A12D26AFC2010"/>
+</rdf:Description>
+<rdf:Description rdf:about="#_kb.Q96NX5_up.classifiedWith_obo.GO_0018105">
+<attribution rdf:resource="http://purl.uniprot.org/uniprot/Q96NX5#attribution-B1173712290FD2B95AA2CFBCD6874F84"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/isoforms/Q96NX5-1">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+<modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-08-16</modified>
+<version rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</version>
+<mass rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53087</mass>
+<md5Checksum>2b5bfd5f37a80501db34c8eb4f2cfe1a</md5Checksum>
+<name>1</name>
+<rdf:value>MGRKEEDDCSSWKKQTTNIRKTFIFMEVLGSGAFSEVFLVKQRLTGKLFALKCIKKSPAFRDSSLENEIAVLKKIKHENIVTLEDIYESTTHYYLVMQLVSGGELFDRILERGVYTEKDASLVIQQVLSAVKYLHENGIVHRDLKPENLLYLTPEENSKIMITDFGLSKMEQNGIMSTACGTPGYVAPEVLAQKPYSKAVDCWSIGVITYILLCGYPPFYEETESKLFEKIKEGYYEFESPFWDDISESAKDFICHLLEKDPNERYTCEKALSHPWIDGNTALHRDIYPSVSLQIQKNFAKSKWRQAFNAAAVVHHMRKLHMNLHSPGVRPEVENRPPETQASETSRPSSPEITITEAPVLDHSVALPALTQLPCQHGRRPTAPGGRSLNCLVNGSLHISSSLVPMHQGSLAAGPCGCCSSCLNIGSKGKSSYCSEPTLLKKANKKQNFKSEVMVPVKASGSSHCRAGQTGVCLIM</rdf:value>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/isoforms/Q96NX5-2">
+<rdf:type rdf:resource="http://purl.uniprot.org/core/Modified_Sequence"/>
+<name>2</name>
+<basedOn rdf:resource="http://purl.uniprot.org/isoforms/Q96NX5-1"/>
+<rdf:value>MGRKEEDDCSSWKKQTTNIRKTFIFMEVLGSGAFSEVFLVKQRLTGKLFALKCIKKSPAFRDSSLENEIAVLKKIKHENIVTLEDIYESTTHYYLVMQLVSGGELFDRILERGVYTEKDASLVIQQVLSAVKYLHENGIVHRDLKPENLLYLTPEENSKIMITDFGLSKMEQNGIMSTACGTPGYVAPEVLAQKPYSKAVDCWSIGVITYILLCGYPPFYEETESKLFEKIKEGYYEFESPFWDDISESAKDFICHLLEKDPNERYTCEKALSHPWIDGNTALHRDIYPSVSLQIQKNFAKSKWRQAFNAAAVVHHMRKLHMNLHSPGVRPEVENRPPETQASETSRPSSPEITITEAPVLDHSVALPALTQLPCQHGRRPTAPGGRSLNCLVNGSLHISSSLVPMHQGSLAAGPCGCCSSCLNIGSKGKSSYCSEPTLLKKANKKQYVFLAKDGAPAWV</rdf:value>
+<modification rdf:resource="http://purl.uniprot.org/annotation/VSP_012138"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-AA808DD26EB651B80869BDADC2C9D5F3">
+<dcterms:creator rdf:resource="http://purl.uniprot.org/goa-projects/Ensembl"/>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0007669"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-0CACA73AD6FA5FC8FF131F2C26F5E326">
+<dcterms:creator rdf:resource="http://purl.uniprot.org/goa-projects/UniProtKB-SubCell"/>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0007669"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-A969DEE2FB45E2286857B21AD327A51B">
+<dcterms:creator rdf:resource="http://purl.uniprot.org/goa-projects/UniProtKB-KW"/>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0007669"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-B1173712290FD2B95AA2CFBCD6874F84">
+<dcterms:creator rdf:resource="http://purl.uniprot.org/goa-projects/GO_Central"/>
+<manual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</manual>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0000318"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-5A4A498E9655355B7C9A12D26AFC2010">
+<dcterms:creator rdf:resource="http://purl.uniprot.org/goa-projects/RHEA"/>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0007669"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-21C63663A29AD55EE5E6908CFE1889D1">
+<manual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</manual>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0000250"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-FD684AEE5A1E1593DF2CD6159588DF62">
+<manual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</manual>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0000255"/>
+<source rdf:resource="http://purl.uniprot.org/prosite-prorule/PRU00159"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1FCB483947CA5D984454AAD7B8ECB1EE">
+<manual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</manual>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0000255"/>
+<source rdf:resource="http://purl.uniprot.org/prosite-prorule/PRU10027"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-260F9275F08C92D1CF2D41553CB78263">
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0000256"/>
+<source rdf:resource="http://purl.uniprot.org/sam/MobiDB-lite"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-E87836BF541079AD696AC3E4608E93EC">
+<manual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</manual>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0000269"/>
+<source rdf:resource="http://purl.uniprot.org/citations/10645953"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-3FFEB16F8D8672432D88F340B06E4F5A">
+<manual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</manual>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0000269"/>
+<source rdf:resource="http://purl.uniprot.org/citations/12637513"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1B6DD8A53024B07CC40BABF91B8002B0">
+<manual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</manual>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0000269"/>
+<source rdf:resource="http://purl.uniprot.org/citations/17344846"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-8B304AAE38A1ACF1C28709AE84A0E8B5">
+<manual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</manual>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0000303"/>
+<source rdf:resource="http://purl.uniprot.org/citations/12637513"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-1F1D235CEE6E9F517881B603655DF439">
+<manual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</manual>
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0000305"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q96NX5#attribution-DCC32F2F8FE5723E2ED328920F0CDA1C">
+<evidence rdf:resource="http://purl.obolibrary.org/obo/ECO_0007829"/>
+<source rdf:resource="http://rdf.wwpdb.org/pdb/2JAM"/>
+</rdf:Description>
+</rdf:RDF>
